@@ -1,0 +1,211 @@
+.opportunity__wrapper {
+    position: relative;
+    padding: rem-calc(220 0 250);
+    @media (max-width: $sm) {
+        padding: rem-calc(96 0);
+    }
+}
+
+.opportunity__container {
+    @media (min-width: 1025px) {
+        position: absolute;
+        top: rem-calc(220);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.opportunity__title {
+    max-width: rem-calc(440);
+    @media (max-width: $sm) {
+        margin-bottom: rem-calc(48);
+    }
+}
+
+.opportunity__carousel {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    @media (max-width: $sm) {
+        flex-direction: column;
+    }
+}
+
+.opportunity__images {
+    width: 50%;
+    @media (max-width: $sm) {
+        margin-bottom: rem-calc(32);
+        width: 100%;
+    }
+}
+
+.opportunity__descriptions {
+    display: flex;
+    width: percentage(4/10);
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: $sm) {
+        width: 100%;
+    }
+}
+
+.opportunity__description {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    @include target-ie11 {
+        height: rem-calc(180);
+    }
+}
+
+.opportunity__photo {
+    width: 100%;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+    @include target-ie11 {
+      opacity: 1;
+    }
+
+    &.is-visible {
+      opacity: 1;
+    }
+}
+
+.opportunity__text {
+    transform: translateX(-100px);
+    opacity: 0;
+    font-family: $font-1;
+    font-size: rem-calc(20);
+    line-height: (30/20);
+    letter-spacing: 0.01em;
+    color: $color-4;
+    @include target-ie11 {
+      opacity: 1;
+      transform: none;
+    }
+}
+
+.opportunity__carousel {
+    .swiper-container {
+        margin-left: 0;
+        margin-right: 0;
+        @media (min-width: $sm) and (max-width: $lg) {
+            // fix iPad cutting arrows
+            margin-bottom: -16px;
+        }
+    }
+
+    .swiper-navigation {
+        margin-top: rem-calc(48);
+        @media (min-width: $sm) and (max-width: $lg) {
+            // fix iPad cutting arrows
+            padding-bottom: 16px;
+        }
+    }
+}
+
+.opportunity-bg__container {
+    @media (min-width: 1025px) {
+        position: relative;
+        height: 100%;
+    }
+}
+
+[class*=opportunity-bg__figure] {
+    position: absolute;
+}
+
+.opportunity-bg__figure-1 {
+    left: -14px;
+    top: calc(100% - 8px);
+    width: 53px;
+    height: 46px;
+    @media (max-width: 1025px) {
+        top: calc(100% - #{rem-calc(116)});
+    }
+    @media (max-width: $sm) {
+        top: auto;
+        bottom: 290px;
+        left: auto;
+        right: -23px;
+        width: 56px;
+        height: 49px;
+    }
+}
+
+.opportunity-bg__figure-2 {
+    bottom: rem-calc(230);
+    left: 16px;
+    width: 50px;
+    height: 43px;
+    @media (max-width: 1025px) {
+        z-index: 100;
+        bottom: rem-calc(374);
+    }
+    @media (max-width: $sm) {
+        bottom: 500px;
+        left: 8px;
+        width: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.opportunity-bg__figure-3 {
+    top: -16px;
+    left: calc(#{percentage(6/10)} + #{rem-calc(4)});
+    width: 63px;
+    height: 54px;
+    @media (max-width: 1025px) {
+        top: rem-calc(136);
+    }
+    @media (max-width: $sm) {
+        display: none;
+    }
+}
+
+.opportunity-bg__figure-4 {
+    right: -12px;
+    top: rem-calc(96);
+    width: 79px;
+    height: 69px;
+    @media (max-width: 1025px) {
+        top: rem-calc(240);
+    }
+    @media (max-width: $sm) {
+        display: none;
+    }
+}
+
+.opportunity-bg__figure-5 {
+    left: rem-calc(-40);
+    top: calc(100% - 8px);
+    width: 86px;
+    height: 74px;
+    @media (max-width: 1025px) {
+        display: none;
+    }
+}
+
+.opportunity-bg__figure-6 {
+    bottom: calc(100% + #{rem-calc(24)});
+    left: 76%;
+    @media (max-width: 1025px) {
+        bottom: 64px;
+        left: auto;
+        right: -30px;
+    }
+    @media (max-width: $sm) {
+        bottom: 190px;
+    }
+}
+
+.opportunity-bg__figure-7 {
+    left: calc(100% + #{rem-calc(48)});
+    top: rem-calc(60);
+    @media (max-width: 1025px) {
+        display: none;
+    }
+}

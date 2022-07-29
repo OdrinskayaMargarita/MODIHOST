@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 712 348" style="enable-background:new 0 0 712 348;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#181E30;}
+	.st2{font-family:'Aspira-Regular';}
+	.st3{font-size:14.0671px;}
+	.st4{fill:none;stroke:#6E6EFF;stroke-width:1.4067;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#181E30;stroke-width:1.4067;stroke-miterlimit:10;}
+	.st6{font-family:'Aspira-Light';}
+	.st7{font-size:9.8469px;}
+	.st8{fill:#6E6EFF;}
+	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-width:1.4067;stroke-miterlimit:10;}
+	.st10{fill:#FFFFFF;}
+	.st11{font-size:19.6939px;}
+	.st12{fill:none;stroke:#FFFFFF;stroke-width:1.4067;stroke-miterlimit:10;}
+	.st13{opacity:0.7;fill:#FFFFFF;}
+</style>
+<g>
+	<rect x="160.38" y="321.14" class="st0" width="80.39" height="10.8"/>
+	<text transform="matrix(1 0 0 1 178.2305 331.377)" class="st1 st2 st3">Tokens</text>
+	<g>
+		<g>
+			<ellipse class="st4" cx="194.37" cy="285.51" rx="10.31" ry="2.82"/>
+			<path class="st4" d="M200,293.5c-1.62,0.29-3.55,0.46-5.63,0.46c-5.7,0-10.31-1.26-10.31-2.82"/>
+			<path class="st4" d="M196.17,299.55c-0.58,0.03-1.18,0.04-1.79,0.04c-5.7,0-10.31-1.26-10.31-2.82"/>
+			<path class="st4" d="M196.65,305.15c-0.73,0.05-1.49,0.07-2.28,0.07c-5.7,0-10.31-1.26-10.31-2.82"/>
+			<line class="st4" x1="204.68" y1="285.51" x2="204.68" y2="290.97"/>
+			<line class="st4" x1="184.06" y1="285.51" x2="184.06" y2="302.41"/>
+		</g>
+		<circle class="st4" cx="207.3" cy="301.93" r="11.26"/>
+	</g>
+	<g>
+		<polyline class="st5" points="73.48,70.31 75.41,80.92 85.96,78.69 		"/>
+		<path class="st5" d="M75.41,80.92c13.12-21.2,31.38-38.88,53.04-51.3"/>
+	</g>
+	<g>
+		<polyline class="st5" points="113.53,304.98 124.13,303.05 121.91,292.5 		"/>
+		<path class="st5" d="M124.13,303.05c-21.2-13.12-38.88-31.38-51.3-53.04"/>
+	</g>
+	<g>
+		<polyline class="st5" points="331.97,262.74 330.04,252.13 319.49,254.35 		"/>
+		<path class="st5" d="M330.04,252.13c-13.12,21.2-31.38,38.88-53.04,51.3"/>
+	</g>
+	<g>
+		<polyline class="st5" points="291.92,28.06 281.32,29.99 283.54,40.54 		"/>
+		<path class="st5" d="M281.32,29.99c21.2,13.12,38.88,31.38,51.3,53.04"/>
+	</g>
+	<g>
+		<rect x="478" y="38.45" class="st0" width="66.85" height="27.43"/>
+		<text transform="matrix(1 0 0 1 485.7598 48.6866)"><tspan x="0" y="0" class="st1 st2 st3">Services </tspan><tspan x="-3.26" y="16.88" class="st1 st2 st3">rendered</tspan></text>
+	</g>
+	<g>
+		<polyline class="st5" points="638.52,262.74 636.59,252.13 626.04,254.35 		"/>
+		<path class="st5" d="M636.59,252.13c-13.12,21.2-31.38,38.88-53.04,51.3"/>
+	</g>
+	<g>
+		<polyline class="st5" points="598.47,28.06 587.86,29.99 590.09,40.54 		"/>
+		<path class="st5" d="M587.86,29.99c21.2,13.12,38.88,31.38,51.3,53.04"/>
+	</g>
+	<g>
+		<polyline class="st5" points="380.03,70.31 381.96,80.92 392.51,78.69 		"/>
+		<path class="st5" d="M381.96,80.92c13.12-21.2,31.38-38.88,53.04-51.3"/>
+	</g>
+	<g>
+		<polyline class="st5" points="420.08,304.98 430.68,303.05 428.46,292.5 		"/>
+		<path class="st5" d="M430.68,303.05c-21.2-13.12-38.88-31.38-51.3-53.04"/>
+	</g>
+	<rect x="455.33" y="321.14" class="st0" width="112.19" height="24.81"/>
+	<text transform="matrix(1 0 0 1 476.9824 331.377)"><tspan x="0" y="0" class="st1 st2 st3">Service fee</tspan><tspan x="-8.86" y="13.22" class="st1 st6 st7">(Paid in AIM tokens)</tspan></text>
+	<g>
+		<path class="st4" d="M511.42,30.42L511.42,30.42c0,0-11.42-5.2-11.42-11.61V5.67l11.42-3.64l11.42,3.64v13.14
+			C522.84,25.22,511.42,30.42,511.42,30.42z"/>
+		<polyline class="st4" points="516.21,12.16 509.8,18.86 506.65,15.46 		"/>
+	</g>
+	<g>
+		<g>
+			<path class="st8" d="M129.82,227.73c0,1.1-0.9,1.99-1.99,1.99H4.21c-1.1,0-1.99-0.9-1.99-1.99V104.11c0-1.1,0.9-1.99,1.99-1.99
+				h123.61c1.1,0,1.99,0.9,1.99,1.99V227.73z"/>
+		</g>
+		<g>
+			<path class="st9" d="M53.94,164.47c0,0,0-0.74,0-1.12c0-6.61,5.41-11.98,12.08-11.98c6.67,0,12.08,5.36,12.08,11.98
+				c0,0.29,0,1.22,0,1.22"/>
+			<path class="st9" d="M66.02,151.37L66.02,151.37c-4.07,0-7.36-3.3-7.36-7.36v-3.27c0-4.07,3.3-7.36,7.36-7.36h0
+				c4.07,0,7.36,3.3,7.36,7.36v3.27C73.38,148.07,70.08,151.37,66.02,151.37z"/>
+		</g>
+		<rect x="2.22" y="176.89" class="st0" width="127.6" height="38.43"/>
+		<text transform="matrix(1 0 0 1 45.6157 191.2208)"><tspan x="0" y="0" class="st10 st2 st11">Pool </tspan><tspan x="-21.55" y="19.69" class="st10 st2 st11">Operator</tspan></text>
+	</g>
+	<g>
+		<g>
+			<path class="st8" d="M419.8,227.73c0,1.1-0.9,1.99-1.99,1.99H294.19c-1.1,0-1.99-0.9-1.99-1.99V104.11c0-1.1,0.9-1.99,1.99-1.99
+				h123.61c1.1,0,1.99,0.9,1.99,1.99V227.73z"/>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 330.1567 193.2218)" class="st10 st2 st11">Hotel</text>
+		</g>
+		<g>
+			<line class="st12" x1="342" y1="156.02" x2="370" y2="156.02"/>
+			<rect x="344.24" y="134.38" class="st12" width="23.53" height="21.64"/>
+			<g>
+				<g>
+					<polygon class="st12" points="367.64,131.17 367.64,125.52 344.36,125.52 344.36,131.17 343.05,131.17 343.05,134.26 
+						368.95,134.26 368.95,131.17 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<line class="st12" x1="348.27" y1="138.89" x2="354.63" y2="138.89"/>
+					<line class="st12" x1="348.27" y1="144.79" x2="354.63" y2="144.79"/>
+					<line class="st12" x1="348.27" y1="150.69" x2="354.63" y2="150.69"/>
+				</g>
+				<g>
+					<line class="st12" x1="357.37" y1="138.89" x2="363.73" y2="138.89"/>
+					<line class="st12" x1="357.37" y1="144.79" x2="363.73" y2="144.79"/>
+					<line class="st12" x1="357.37" y1="150.69" x2="363.73" y2="150.69"/>
+				</g>
+			</g>
+			<g>
+				<line class="st12" x1="353.85" y1="131.17" x2="358.15" y2="131.17"/>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st8" d="M709.78,227.73c0,1.1-0.9,1.99-1.99,1.99H584.18c-1.1,0-1.99-0.9-1.99-1.99V104.11c0-1.1,0.9-1.99,1.99-1.99
+				h123.61c1.1,0,1.99,0.9,1.99,1.99V227.73z"/>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 599.9985 201.0675)" class="st10 st2 st11">ModiHost</text>
+		</g>
+		<path class="st13" d="M661.81,132.67h-18.38l-2.63,4.56h18.38l2.63,4.56h-38.22l-2.63,4.56h43.47l1.31,2.28l-6.57,11.39H640.8
+			l2.63,4.56h18.38l9.19-15.95L661.81,132.67z M659.18,150.9h-29.12l2.63,4.56h23.87L659.18,150.9z"/>
+	</g>
+	<g>
+		<path class="st4" d="M507.71,307.65c-0.75,0.16-1.52,0.24-2.31,0.24c-6.22,0-11.26-5.04-11.26-11.26
+			c0-6.22,5.04-11.26,11.26-11.26c4.11,0,7.7,2.2,9.66,5.48"/>
+		<circle class="st4" cx="517.45" cy="301.93" r="11.26"/>
+		<line class="st4" x1="522.9" y1="297.8" x2="512.92" y2="307.77"/>
+		<circle class="st4" cx="521.77" cy="306.14" r="1.62"/>
+		<ellipse class="st4" cx="513.29" cy="297.85" rx="1.79" ry="1.77"/>
+	</g>
+	<g>
+		<path class="st4" d="M197.03,24.92c-0.8,0.18-1.63,0.27-2.48,0.27c-6.22,0-11.26-5.04-11.26-11.26s5.04-11.26,11.26-11.26
+			c4.03,0,7.56,2.12,9.55,5.3"/>
+		<circle class="st4" cx="206.6" cy="19.23" r="11.26"/>
+		<g>
+			<line class="st4" x1="212.05" y1="15.11" x2="202.08" y2="25.08"/>
+			<circle class="st4" cx="210.93" cy="23.44" r="1.62"/>
+			<ellipse class="st4" cx="202.44" cy="15.15" rx="1.79" ry="1.77"/>
+		</g>
+	</g>
+	<rect x="144.48" y="38.16" class="st0" width="112.19" height="24.81"/>
+	<text transform="matrix(1 0 0 1 163.2407 48.3917)"><tspan x="0" y="0" class="st1 st2 st3">Lending fee</tspan><tspan x="-5.96" y="11.82" class="st1 st6 st7">(Paid in AIM tokens)</tspan></text>
+</g>
+</svg>

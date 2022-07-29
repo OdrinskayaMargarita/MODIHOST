@@ -1,0 +1,22 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" width="54.625" height="47.531" viewBox="0 0 54.625 47.531">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff5a3b;
+        stroke: #ff5a3b;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 1.5px;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <path id="Polygon" class="cls-1" d="M286.661,332.978L273.378,309.97H246.811l-13.284,23.008,13.284,23.01h26.567Z" transform="translate(-232.781 -309.219)"/>
+  <path class="cls-2" d="M251.477,331.51l7.476,8.973,11.963-16.45" transform="translate(-232.781 -309.219)"/>
+</svg>

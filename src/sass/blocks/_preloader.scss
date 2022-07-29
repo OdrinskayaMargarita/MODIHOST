@@ -1,0 +1,18 @@
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background-color: $color-4;
+    transition: opacity .3s ease-in-out;
+
+    svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin: -20px 0 0 -20px;
+        animation: rotating 1.5s linear infinite;
+    }
+}

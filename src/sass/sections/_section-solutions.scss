@@ -1,0 +1,214 @@
+.solutions__wrapper {
+  margin: rem-calc(170 0 200);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOS43NSIgaGVpZ2h0PSI1MjkuNjIiIHZpZXdCb3g9IjAgMCAyOS43NSA1MjkuNjIiPiAgPGRlZnM+ICAgIDxzdHlsZT4gICAgICAuY2xzLTEgeyAgICAgICAgZmlsbDogIzk4YjBjZDsgICAgICAgIGZpbGwtcnVsZTogZXZlbm9kZDsgICAgICB9ICAgIDwvc3R5bGU+ICA8L2RlZnM+ICA8cGF0aCBpZD0iUG9seWdvbiIgY2xhc3M9ImNscy0xIiBkPSJNLTQyOC45MDgsMzg2My4xM2wtMC45Mi0yNjQuODEsMjI4Ljg3My0xMzMuMiwyMjkuNzksMTMxLjYxLDAuOTIsMjY0LjgtMjI4Ljg3MywxMzMuMloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTM0NjUuMTMpIi8+PC9zdmc+);
+  background-position: left 80%;
+  background-size: 16px;
+  background-repeat: no-repeat;
+  @media (max-width: $lg) {
+    background-image: none;
+  }
+  @media (max-width: $sm) {
+    margin-bottom: 96px;
+  }
+}
+
+.solutions__title {
+  margin: 0 auto rem-calc(112);
+  max-width: rem-calc(777);
+  @media (max-width: $sm) {
+    margin-bottom: 64px;
+  }
+
+  &-h2{
+    margin-bottom: 65px;
+  }
+
+  &-section{
+    margin-bottom: 5.83333rem;
+    font-size: 1.11111rem;
+    line-height: 1.33333;
+    font-weight: 400;
+    color: #000;
+  }
+}
+
+.solutions__item, .solutions__item-content {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  align-items: center;
+  @media (max-width: $lg) {
+    flex-direction: column;
+  }
+}
+
+.solutions__item {
+  max-width: rem-calc(1092);
+
+  &:not(:last-child) {
+    margin-bottom: 60px;
+    @media (max-width: $sm) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &:nth-child(1), &:nth-child(3), &:nth-child(5) {
+    @media (max-width: $lg) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.solutions__text-content {
+  position: relative;
+  z-index: 100;
+}
+
+.solutions__item-content, .solutions__text-content {
+  @media (min-width: 1025px) {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+  }
+}
+
+.solutions__item-decoration {
+  width: 100%;
+  @media (max-width: 1024px) {
+    position: absolute;
+    top: 0;
+    // bottom: 0;
+    left: 0;
+    // right: 0;
+  }
+}
+
+.solutions__img {
+  width: percentage(488/1092);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: .5s ease-in-out;
+  transition-property: opacity, transform;
+  @include target-ie11 {
+    opacity: 1;
+    transform: none;
+  }
+  @media (max-width: $lg) {
+    margin-bottom: 50px;
+    width: auto;
+  }
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.solutions__text {
+  position: relative;
+  margin: 0 auto;
+  width: percentage(391/1092);
+  font-family: $font-1;
+  font-size: 18px;
+  line-height: (28/18);
+  letter-spacing: .15px;
+  font-weight: 400;
+  color: $color-4;
+  @media (max-width: $lg) {
+    width: auto;
+  }
+  @media (max-width: $md) {
+    font-size: 16px;
+  }
+
+  // *:not([class*=solutions__bg-elem-]) {
+  //   position: relative;
+  //   z-index: 10;
+  // }
+
+  h4 {
+    margin-bottom: 32px;
+    font-family: $font-2;
+    font-size: 20px;
+    letter-spacing: .15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-4;
+  }
+}
+
+[class*=solutions__bg-elem-] {
+  position: absolute;
+
+  img {
+    display: block;
+  }
+}
+
+.solutions__bg-elem-1 {
+  top: -10px;
+  left: -32px;
+  width: 59px;
+  height: 51px;
+}
+
+.solutions__bg-elem-2 {
+  top: 45px;
+  right: 150%;
+  width: 44px;
+  height: 38px;
+  @media (max-width: $lg) {
+    right: calc(100% + 15px);
+  }
+  @media (max-width: $md) {
+    top: 76px;
+    right: calc(100% + 10px);
+  }
+}
+
+.solutions__bg-elem-3 {
+  bottom: 41%;
+  left: 110%;
+  width: 59px;
+  height: 51px;
+  @media (max-width: $lg) {
+    bottom: 144px;
+    left: auto;
+    right: 0;
+  }
+  @media (max-width: $md) {
+    width: 35px;
+    height: 30px;
+  }
+}
+
+.solutions__bg-elem-4 {
+  top: -20px;
+  left: -48px;
+  width: 70px;
+  height: 61px;
+  @media (max-width: $md) {
+    top: -5px;
+    left: -24px;
+    width: 44px;
+    height: 38px;
+  }
+}
+
+.solutions__bg-elem-5 {
+  top: calc(100% + 56px);
+  right: calc(100% + 96px);
+  width: 42px;
+  height: 36px;
+  @media (max-width: $lg) {
+    right: calc(100% + 10px);
+  }
+  @media (max-width: $md) {
+    top: -4px;
+    width: 35px;
+    height: 30px;
+  }
+}

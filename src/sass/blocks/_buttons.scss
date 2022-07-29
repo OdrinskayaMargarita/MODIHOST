@@ -1,0 +1,133 @@
+.button {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width: 144px;
+    height: 40px;
+    border-width: 1.5px;
+    border-style: solid;
+    text-align: center;
+    font-family: $font-3;
+    font-size: 20px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    transition-property: color, background-color;
+
+    &:not(button) {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transform-origin: top;
+      transform: scaleY(0);
+      transition: transform .2s ease-in-out;
+    }
+
+    &:hover {
+      &::before {
+        transform: scaleY(1);
+      }
+    }
+}
+
+.button--wide {
+  width: auto;
+  padding: 0 40px;
+}
+
+.button--dark {
+    border-color: #1f2a3d;
+    color: #1f2a3d;
+
+    &::before {
+      background-color: #1f2a3d;
+    }
+
+    &:hover {
+        color: $color-2;
+    }
+}
+
+.button--white {
+    border-color: $color-2;
+    color: $color-2;
+
+    &::before {
+      background-color: $color-2;
+    }
+
+    &:hover {
+        color: $color-4;
+    }
+}
+
+.button--red {
+    border-color: $color-5;
+    color: $color-5;
+
+    &::before {
+      background-color: $color-5;
+    }
+
+    &:hover {
+        color: $color-2;
+    }
+}
+
+.button--filled-red {
+  border: none;
+  background-color: $color-5;
+  color: $color-2;
+
+  &::before {
+    background-color: darken($color-5, 20%);
+  }
+}
+
+.button--filled-purple {
+  border: none;
+  background-color: $color-3;
+  color: $color-2;
+
+  &::before {
+    background-color: darken($color-3, 5%);
+  }
+}
+
+.link {
+    display: inline-block;
+    font-family: $font-3;
+    font-size: rem-calc(26);
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: $color-5;
+    cursor: pointer;
+    transition: color .3s ease-in-out;
+
+    &:hover {
+      color: darken($color-5, 20%);
+    }
+}
+
+.link--larger {
+    font-size: rem-calc(28);
+}
+
+.link--purple {
+    color: $color-3;
+
+    &:hover {
+      color: $color-4;
+    }
+}

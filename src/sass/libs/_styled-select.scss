@@ -1,0 +1,113 @@
+$ss-line-height: 19px !default;
+$ss-border-width: 1px !default;
+$ss-spacing: 32px !default;
+
+$ss-highlight-color: rgb(242, 244, 248) !default;
+$ss-selected-option-background: linear-gradient(to bottom, #fefefe, #f2f2f2) !default;
+$ss-dropdown-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !default;
+
+$ss-standard-border: $ss-border-width solid #d0d0d0 !default;
+
+$ss-spacing-small: $ss-spacing / 2 !default;
+$ss-spacing-tiny: $ss-spacing / 4 !default;
+
+// Hide real select boxes which have seen styled.
+select[data-ss-uuid] {
+  display: none;
+  pointer-events: none;
+}
+
+.style-select {
+  position: relative;
+  z-index: 3;
+  user-select: none;
+  color: $color-1;
+
+  .ss-selected-option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    // The down arrow
+    &::after {
+      content: "";
+      position: absolute;
+      top: 20px;
+      right: $ss-spacing;
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-left: 1px solid $color-1;
+      border-bottom: 1px solid $color-1;
+      transform: translateY(-50%) rotate(-45deg);
+
+      @media (max-width: $sm) {
+        width: 6px;
+        height: 6px;
+      }
+    }
+  }
+
+  .ss-dropdown {
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    max-height: 400px;
+    overflow: auto;
+    padding: 16px 0;
+    position: absolute;
+    float: left;
+    display: none;
+    border: 1px solid rgba($color-4, .4);
+    background: $color-6;
+    border-radius: 2px;
+
+    .ss-option {
+      width: 100%;
+      padding: 8px 24px;
+      background-color: $color-6;
+      cursor: pointer;
+      font-family: $font-1;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: 0.5px;
+      font-weight: 400;
+      transition: background $time-sm;
+      // We don't use :hover as that's only for mouse
+      // and we want keyboard highlighting too
+
+      &:first-child {
+        display: none;
+      }
+
+      @media (max-width: $sm) {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.highlighted {
+        background: #F4F0F7;
+      }
+
+      &.disabled {
+        color: #d0d0d0;
+      }
+
+      &.ticked {
+        color: $color-3;
+      }
+    }
+  }
+
+  &.open {
+    z-index: 10;
+
+    .ss-dropdown {
+      display: block;
+    }
+
+    .ss-selected-option::after {
+      transform: translateY(50%) rotate(133deg);
+    }
+  }
+
+}

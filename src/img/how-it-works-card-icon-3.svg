@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.9 112.5">
+  <defs>
+    <style>.cls-1{fill:#6e6eff;}.cls-2{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:3px;fill-rule:evenodd;}</style>
+  </defs>
+  <path class="cls-1" d="M0,56.25,32.48,0h65L129.9,56.25,97.43,112.5h-65Z"/>
+  <path class="cls-2" d="M90,50.92a4.81,4.81,0,1,1-4.83,4.81A4.82,4.82,0,0,1,90,50.92Z"/>
+  <path class="cls-2" d="M65,26.14a5.77,5.77,0,1,1-5.79,5.76A5.77,5.77,0,0,1,65,26.14Z"/>
+  <path class="cls-2" d="M84.17,36.75a4.81,4.81,0,1,1-4.83,4.8A4.81,4.81,0,0,1,84.17,36.75Z"/>
+  <path class="cls-2" d="M65,86.36V36.77"/>
+  <path class="cls-2" d="M72.18,84.88V53.66l8.76-8.95"/>
+  <path class="cls-2" d="M86.78,59l-7.51,7.68V77.38"/>
+  <path class="cls-2" d="M50.56,41.55a4.83,4.83,0,1,1-4.83-4.8A4.82,4.82,0,0,1,50.56,41.55Z"/>
+  <path class="cls-2" d="M44.76,55.73a4.83,4.83,0,1,1-4.82-4.81A4.81,4.81,0,0,1,44.76,55.73Z"/>
+  <path class="cls-2" d="M49,44.71l8.76,8.95V84.88"/>
+  <path class="cls-2" d="M50.63,77.38V66.63L43.12,59"/>
+</svg>

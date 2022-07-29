@@ -1,0 +1,21 @@
+<svg id="Next" xmlns="http://www.w3.org/2000/svg" width="42.31" height="36.62" viewBox="0 0 42.31 36.62">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6b70fc;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <path id="Polygon" class="cls-1" d="M1185.9,4344.44l10.58,18.32h21.16l10.58-18.32-10.58-18.33h-21.16Z" transform="translate(-1185.91 -4326.13)"/>
+  <path id="Arrow" class="cls-2" d="M1212.92,4346.53l-5.52-5.52-5.52,5.52" transform="translate(-1185.91 -4326.13)"/>
+</svg>

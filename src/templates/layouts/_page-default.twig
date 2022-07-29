@@ -1,0 +1,29 @@
+{% import "mixins/_buttons.twig" as button %}
+{% import "mixins/_vertical-lines.twig" as lines %}
+
+<!doctype html>
+<html lang="en">
+
+{% include "./_head.twig" %}
+
+<body data-page-name="{{ pageName }}">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MR5Q24T"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div class="globalwrapper">
+        {% include "blocks/_header.twig" %}
+
+        {% block content %}{% endblock %}
+
+        {% include "blocks/_footer.twig" %}
+        {% include "blocks/_preloader.twig" %}
+
+        {#{% include "blocks/_svg-defs.twig" %}#}
+    </div>
+
+    <script src="/js/app.js"></script>
+
+</body>
+</html>

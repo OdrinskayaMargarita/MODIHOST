@@ -1,0 +1,41 @@
+---
+title: ModiHost
+description: ModiHost is an innovative SaaS hotel management system facilitating easy access to AI technologies for hotels of any size or complexity. Using blockchain for transparency and scalability, the system harnesses the power of AI to deliver the best possible customer experience – for hotels and their guests. ModiHost predicts customers’ needs beyond their expectations.
+pageName: homePage
+homePage: true
+---
+
+{% extends 'layouts/_page-default.twig' %}
+{% block content %}
+  <main  data-barba="container" {#style="filter: blur(0) brightness(100%); -webkit-filter: blur(0) brightness(100%);"#}>
+    {% include "sections/home/_section-intro.twig" %}
+    {% include "sections/home/_section-counters.twig" %}
+    {% include "sections/home/_section-problems.twig" %}
+    {% include "sections/home/_section-solutions.twig" %}
+    {% include "sections/home/_section-variants.twig" %}
+    {# {% include "sections/home/_section-download-app.twig" %} #}
+    {% include "sections/home/_section-video-1.twig" %}
+    {% include "sections/home/_section-how-it-works.twig" %}
+    {% include "sections/home/_section-whitepaper.twig" %}
+    {% include "sections/home/_section-opportunity.twig" %}
+    {% include "sections/home/_section-video-2.twig" %}
+    {# {% include "sections/home/_section-discover.twig" %} #}
+
+    {% include "sections/home/_section-system.twig" %}
+    {% include "sections/home/_section-solutions2.twig" %}
+
+
+    {% include "sections/home/_section-tokensale.twig" %}
+{#    {% include "sections/home/_section-token-numbers.twig" %}#}
+    {# {% include "sections/home/_section-message.twig" %} #}
+    {% include "sections/home/_section-github.twig" %}
+    {% include "sections/home/_section-roadmap.twig" %}
+    {% include "sections/home/_section-progress.twig" %}
+    {% include "sections/home/_section-penetration.twig" %}
+    {% include "sections/home/_section-subscribe.twig" %}
+    {% include "sections/home/_section-team.twig" %}
+    {% include "sections/home/_section-partners.twig" %}
+    {% include "sections/home/_section-media.twig" %}
+  </main>
+  {% include "sections/home/_modal-video.twig" %}
+{% endblock %}

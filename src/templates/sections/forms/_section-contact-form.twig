@@ -1,0 +1,50 @@
+<div class="form__wrapper">
+    <div class="form__container container container--type-1">
+        <form class="contact-form__blank form__blank" id="contact-form" data-action="form-process.php" method="post">
+            <input type="hidden" name="formType" value="contact">
+            <h2 class="contact-form__title form__title">Register your Interest</h2>
+            <div class="contact-form__fields">
+                <label class="form__field">
+                    <span class="form__label">Name</span>
+                    <input class="form__form-item" type="text" name="name" value="" required>
+                </label>
+                <label class="form__field">
+                    <span class="form__label">Phone number <span class="optional">(optional)</span></span>
+                    <input class="form__form-item" type="text" name="tel" value="">
+                </label>
+                <label class="form__field">
+                    <span class="form__label">Email</span>
+                    <input class="form__form-item" type="text" name="email" value="" required>
+                </label>
+                <label class="form__field">
+                    <span class="form__label">Recipient</span>
+                    <div class="form__form-item select-menu__wrapper">
+                        <select class="select-menu" name="recipient" required>
+                            <option value=""></option>
+                            <option value="contact@modihost.io" selected>General questions</option>
+                            <option value="hotels@modihost.io">Hotel owners</option>
+                            <option value="press@modihost.io">Press and Media Inquires</option>
+                            <option value="support@modihost.io">Technical Support</option>
+                        </select>
+                    </div>
+                </label>
+                <label class="form__field">
+                    <span class="form__label form__label--top-aligned">Message</span>
+                    <textarea class="form__form-item" name="message" required></textarea>
+                </label>
+                <div class="form__field">
+                    <div class="form__buttons">
+                        <button class="form__button--last button button--filled-red" type="submit">send</button>
+                        <div class="form__error-message">
+                            <span>There was an error when sending the form. Please try again later.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form__success">
+                <p class="form__title">Thank you for the message.</p>
+                <p class="form__label">We'll get back to you shortly.</p>
+            </div>
+        </form>
+    </div>
+</div>

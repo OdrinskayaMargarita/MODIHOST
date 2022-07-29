@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1270 600" style="enable-background:new 0 0 1270 600;" xml:space="preserve">
+<g>
+	<g>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.25;" d="M1121.9,42.4v551.2"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.25;stroke-miterlimit:10;" d="M1024.4,42.4v551.2 M927,42.4l-0.1,551.2"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.25;" d="M732,42.4v551.2 M634.6,42.4l-0.1,551.2"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.25;stroke-miterlimit:10;" d="M537.1,42.4v551.2"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.25;" d="M342.2,42.4l-0.1,551.2 M244.7,42.4v551.2 M147.2,42.4v551.2"/>
+	</g>
+	<g>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M1219.7,6.4l0.1,587.3 M829.8,6.4v3"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.5;stroke-dasharray:5.9927,5.9927;" d="M829.8,15.3v572.4"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M829.8,590.6v3 M439.8,6.3v3"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.5;stroke-dasharray:5.9927,5.9927;" d="M439.8,15.3l-0.1,572.3"/>
+		<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M439.7,590.6v3 M49.8,6.3v587.3"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 69.903 19.125)" style="fill:#62697D; font-family:'BebasNeuePro'; font-size:18px;">Month -2</text>
+<text transform="matrix(1 0 0 1 458.6 19.125)" style="fill:#62697D; font-family:'BebasNeuePro'; font-size:18px;">Month -1</text>
+<text transform="matrix(1 0 0 1 847.4399 19.125)" style="fill:#62697D; font-family:'BebasNeuePro'; font-size:18px;">Month 0</text>
+<path style="fill:#62697D;" d="M146.6,194H50.4c-0.3,0-0.6-0.3-0.6-0.6v-30.8c0-0.3,0.3-0.6,0.6-0.6h96.3c0.3,0,0.6,0.3,0.6,0.6
+	v30.8C147.2,193.8,147,194,146.6,194L146.6,194z"/>
+<text transform="matrix(1 0 0 1 169.205 182.676)" style="fill:#181E30; font-family:'Gotham'; font-size:14px;">Design data capture platform</text>
+<path style="fill:#62697D;" d="M244.1,238h-96.3c-0.3,0-0.6-0.3-0.6-0.6v-30.8c0-0.3,0.3-0.6,0.6-0.6h96.3c0.3,0,0.6,0.3,0.6,0.6
+	v30.8C244.7,237.8,244.4,238,244.1,238z"/>
+<text transform="matrix(1 0 0 1 266.69 226.933)" style="fill:#181E30; font-family:'Gotham'; font-size:14px;">Develop data capture platform</text>
+<path style="fill:#62697D;" d="M341.6,282h-96.3c-0.3,0-0.6-0.3-0.6-0.6v-30.8c0-0.3,0.3-0.6,0.6-0.6h96.3c0.3,0,0.6,0.3,0.6,0.6
+	v30.8C342.2,281.8,341.9,282,341.6,282z"/>
+<text transform="matrix(1 0 0 1 362.153 270.163)" style="fill:#181E30; font-family:'Gotham'; font-size:14px;">Upload data</text>
+<path style="fill:#62697D;" d="M731,326H440.6c-0.6,0-1-0.5-1-1v-29.9c0-0.6,0.5-1,1-1H731c0.6,0,1,0.5,1,1V325c0,0.5-0.4,1-0.9,1
+	C731.1,326,731,326,731,326z"/>
+<text transform="matrix(1 0 0 1 455.23 314.85)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Mobile app</text>
+<path style="fill:#62697D;" d="M731.2,370H537.9c-0.5,0-0.8-0.4-0.8-0.8v-30.3c0-0.5,0.4-0.8,0.8-0.8h193.2c0.5,0,0.8,0.4,0.8,0.8
+	v30.3C732,369.6,731.6,370,731.2,370z"/>
+<text transform="matrix(1 0 0 1 549.2 358.682)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Social Media integration</text>
+<path style="fill:#62697D;" d="M1120.6,414H635.9c-0.7,0-1.3-0.6-1.3-1.3v-29.3c0-0.7,0.6-1.3,1.3-1.3h484.7c0.7,0,1.3,0.6,1.3,1.3
+	v29.3C1121.9,413.4,1121.3,414,1120.6,414L1120.6,414z"/>
+<text transform="matrix(1 0 0 1 646.77 402.786)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Stabilize data capture platform; UIN issue</text>
+<g>
+	<path style="fill:none;stroke:#181E30;stroke-miterlimit:10;" d="M160.1,178h-12.9"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M147.2,178h-12.8"/>
+	<path style="fill:none;stroke:#181E30;stroke-miterlimit:10;" d="M257.5,222h-12.8"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M244.7,222h-12.9"/>
+	<path style="fill:none;stroke:#181E30;stroke-miterlimit:10;" d="M355,266h-12.8"/>
+	<path style="fill:none;stroke:#FFFFFF;stroke-miterlimit:10;" d="M342.1,266h-12.8"/>
+</g>
+<path style="fill:#62697D;" d="M1121.7,414h-3.9v-32h4.4l97.2,15.4c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l-97.2,15.4
+	C1122,414,1121.8,414,1121.7,414z"/>
+</svg>

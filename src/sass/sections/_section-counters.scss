@@ -1,0 +1,91 @@
+.numbers__wrapper {
+    position: relative;
+    z-index: 100;
+    margin: rem-calc(175 0 188);
+    @media (max-width: $sm) {
+        margin: 120px 0;
+    }
+}
+
+.numbers__container {
+    @media (min-width: 1025px) {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.numbers__title {
+    max-width: rem-calc(484);
+    @media (max-width: $sm) {
+        margin: 0 auto 70px;
+        max-width: 270px;
+    }
+}
+
+.numbers__list {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $sm) {
+        flex-direction: column;
+        max-width: 210px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -80px;
+    }
+
+    li {
+        @media (max-width: $sm) {
+            margin-bottom: 80px;
+        }
+
+        h5 {
+            margin-bottom: 12px;
+            font-family: $font-2;
+            font-size: rem-calc(48);
+            letter-spacing: -0.015em;
+            font-weight: 700;
+            color: $color-4;
+            @media (max-width: $lg) {
+                font-size: rem-calc(42);
+            }
+            @media (max-width: $sm) {
+
+            }
+        }
+
+        p {
+            font-family: $font-1;
+            font-size: 16px;
+            line-height: (22/16);
+            letter-spacing: 0.01;
+            color: $color-4;
+        }
+    }
+}
+
+.numbers-bg__wrapper {
+    position: relative;
+    height: 100%;
+    @media (max-width: $sm) {
+        display: none;
+    }
+}
+
+[class*=numbers-bg__figure] {
+    position: absolute;
+}
+
+.numbers-bg__figure-1 {
+    top: rem-calc(32);
+    left: rem-calc(-32);
+    @media (max-width: 1025px) {
+        top: auto;
+        bottom: rem-calc(200);
+    }
+}
+
+.numbers__parallax {
+    max-width: none;
+}

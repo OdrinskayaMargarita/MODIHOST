@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1270 600" style="enable-background:new 0 0 1270 600;" xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_15_" width="1270" height="600"/>
+	</defs>
+	<clipPath id="SVGID_16_">
+		<use xlink:href="#SVGID_15_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_16_);">
+		<g>
+			<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M49.7,6.3l0.1,587.3"/>
+			<g>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.25;" d="M1121.9,42.4v551.1"/>
+				<g>
+					<path style="fill:none;stroke:#313A54;stroke-width:0.25;stroke-miterlimit:10;" d="M1024.4,42.4v551.1 M927,42.4l-0.1,551.1"
+						/>
+				</g>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.25;" d="M732,42.4v551.1 M634.6,42.4l-0.1,551.1"/>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.25;stroke-miterlimit:10;" d="M537.1,42.4v551.1"/>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.25;" d="M342.2,42.4l-0.1,551.1 M244.7,42.4v551.1 M147.2,42.4v551.1"/>
+			</g>
+			<g>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M1219.7,6.3l0.1,587.3 M829.8,6.3v3"/>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.5;stroke-dasharray:5.9927,5.9927;" d="M829.8,15.3v572.3"/>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M829.8,590.6v3 M439.8,6.2v3"/>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.5;stroke-dasharray:5.9927,5.9927;" d="M439.8,15.2l-0.1,572.3"/>
+				<path style="fill:none;stroke:#313A54;stroke-width:0.5;" d="M439.7,590.5v3"/>
+			</g>
+		</g>
+		<text transform="matrix(1 0 0 1 66.202 19.049)" style="fill:#62697D; font-family:'BebasNeuePro'; font-size:18px;">Month 22</text>
+		<text transform="matrix(1 0 0 1 454.9 19.049)" style="fill:#62697D; font-family:'BebasNeuePro'; font-size:18px;">Month 23</text>
+		<text transform="matrix(1 0 0 1 843.739 19.049)" style="fill:#62697D; font-family:'BebasNeuePro'; font-size:18px;">Month 24</text>
+		<g>
+			<path style="fill:#6E6EFF;" d="M1121.7,106h-3.9V74h4.4l97.2,15.4c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l-97.2,15.4
+				C1122,105.9,1121.8,106,1121.7,106z"/>
+			<g>
+				<path id="B" style="fill:#6E6EFF;" d="M1121.7,194h-3.9v-32h4.4l97.2,15.4c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l-97.2,15.4
+					C1122,193.9,1121.8,194,1121.7,194L1121.7,194z"/>
+			</g>
+		</g>
+		<path style="fill:#FF5A3C;" d="M1121.7,325.9h-3.9v-32h4.4l97.2,15.4c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l-97.2,15.4
+			C1122,325.9,1121.8,325.9,1121.7,325.9z"/>
+		<path style="fill:#181E30;" d="M1121.7,385.9h-3.9v-48h3.9c0.2,0,0.3,0,0.5,0.1l97.2,23.2c0.6,0.1,0.6,1.4,0,1.5l-97.2,23.2
+			L1121.7,385.9L1121.7,385.9z"/>
+		<path style="fill:#98B0CD;" d="M1121.7,502.1h-3.9v-32h4.4l97.2,15.4c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5l-97.2,15.4
+			C1122,502,1121.8,502.1,1121.7,502.1z"/>
+		<g>
+			<g>
+				<path id="C" style="fill:#6E6EFF;" d="M339.6,150h-1847.2c-1.4,0-2.6-1.2-2.6-2.6v-26.8c0-1.4,1.2-2.6,2.6-2.6H339.6
+					c1.4,0,2.6,1.2,2.6,2.6v26.8C342.2,148.8,341,150,339.6,150z"/>
+			</g>
+			<path style="fill:#6E6EFF;" d="M339.6,194h-1847.2c-1.4,0-2.6-1.2-2.6-2.6v-26.8c0-1.4,1.2-2.6,2.6-2.6H339.6
+				c1.4,0,2.6,1.2,2.6,2.6v26.8C342.2,192.8,341,194,339.6,194z M1120.3,194H441.2c-0.9,0-1.6-0.7-1.6-1.6c0,0,0,0,0,0v-28.8
+				c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0h679.1c0.9,0,1.6,0.7,1.6,1.6c0,0,0,0,0,0v28.8C1121.9,193.2,1121.2,194,1120.3,194z"/>
+		</g>
+		<text transform="matrix(1 0 0 1 459.762 182.087)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Stabilize platform – Steady State Phase 2</text>
+		<path style="fill:#98B0CD;" d="M1120.3,501.9H441.2c-0.9,0-1.6-0.7-1.6-1.6c0,0,0,0,0,0v-28.8c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0
+			h679.1c0.9,0,1.6,0.7,1.6,1.6c0,0,0,0,0,0v28.8C1121.9,501.2,1121.2,501.9,1120.3,501.9C1120.3,501.9,1120.3,501.9,1120.3,501.9z"
+			/>
+		<text transform="matrix(1 0 0 1 459.762 490.023)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Stabilize platform – Steady State Phase 2</text>
+		<path style="fill:#6E6EFF;" d="M1118.6,106h-3015.5c-1.8,0-3.3-1.5-3.3-3.3V77.3c0-1.8,1.5-3.3,3.3-3.3h3015.5
+			c1.8,0,3.3,1.5,3.3,3.3v25.4C1121.9,104.5,1120.4,106,1118.6,106z"/>
+		<g>
+			<path style="fill:#FF5A3C;" d="M340.3,281.9h-1458.6c-1,0-1.9-0.8-1.9-1.9v-28.2c0-1,0.8-1.9,1.9-1.9H340.3c1,0,1.9,0.8,1.9,1.9
+				V280C342.2,281,341.3,281.9,340.3,281.9z M1119.8,325.9H-728.1c-1.2,0-2.1-1-2.1-2.1V296c0-1.2,1-2.1,2.1-2.1h1847.9
+				c1.2,0,2.1,1,2.1,2.1v27.8C1121.9,324.9,1120.9,325.9,1119.8,325.9z"/>
+		</g>
+		<path style="fill:#98B0CD;" d="M340.5,501.9H-728.6c-0.9,0-1.6-0.7-1.6-1.6c0,0,0,0,0,0v-28.8c0-0.9,0.7-1.6,1.6-1.6c0,0,0,0,0,0
+			H340.5c0.9,0,1.6,0.7,1.6,1.6c0,0,0,0,0,0v28.8C342.2,501.2,341.4,501.9,340.5,501.9z"/>
+		<g>
+			<path style="fill:#181E30;" d="M728.8,369.9H-3457c-1.8,0-3.2-1.4-3.2-3.2v-25.6c0-1.8,1.4-3.2,3.2-3.2H728.8
+				c1.8,0,3.2,1.4,3.2,3.2v25.6C732,368.5,730.6,369.9,728.8,369.9z M729.7,457.9h-2237.5c-1.2,0-2.3-1-2.3-2.2c0,0,0-0.1,0-0.1
+				v-27.3c0-1.2,1-2.3,2.2-2.3c0,0,0.1,0,0.1,0H729.7c1.2,0,2.3,1,2.3,2.2c0,0,0,0.1,0,0.1v27.3C732,456.8,731,457.9,729.7,457.9z
+				 M1120.9,385.9H830.8c-0.6,0-1-0.5-1-1V339c0-0.6,0.5-1,1-1h290.1c0.6,0,1,0.5,1,1v45.9C1121.9,385.4,1121.4,385.9,1120.9,385.9z
+				"/>
+		</g>
+		<text transform="matrix(1 0 0 1 849.1121 358.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Stabilize platform – Steady </text>
+		<text transform="matrix(1 0 0 1 849.1121 374.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">State Phase 2</text>
+		<path style="fill:#98B0CD;" d="M729.4,561.9h-1847.1c-1.4,0-2.6-1.2-2.6-2.6v-42.8c0-1.4,1.2-2.6,2.6-2.6H729.4
+			c1.4,0,2.6,1.2,2.6,2.6v42.8C732,560.7,730.9,561.9,729.4,561.9z"/>
+		<path style="fill:#FF5A3C;" d="M731.2,281.9H440.6c-0.5,0-0.8-0.4-0.8-0.8v-30.3c0-0.5,0.4-0.8,0.8-0.8h290.6
+			c0.5,0,0.8,0.4,0.8,0.8V281C732,281.5,731.6,281.9,731.2,281.9z"/>
+		<text transform="matrix(1 0 0 1 459.117 270.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Enhanced capabilities</text>
+		<text transform="matrix(1 0 0 1 66.202 358.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Omni-channel booking and pricing</text>
+		<text transform="matrix(1 0 0 1 66.202 94.087)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Additional value-added services</text>
+		<text transform="matrix(1 0 0 1 66.202 138.087)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Airline services</text>
+		<text transform="matrix(1 0 0 1 66.202 182.087)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Car / Other Services</text>
+		<text transform="matrix(1 0 0 1 66.202 446.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Integrate with AI chatbot and end to end testing</text>
+		<text transform="matrix(1 0 0 1 66.202 270.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">AI Chatbot NLP integration</text>
+		<text transform="matrix(1 0 0 1 66.202 314.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Stabilize platform – Steady State Phase 2</text>
+		<text transform="matrix(1 0 0 1 66.202 490.149)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Enhanced capabilities</text>
+		<text transform="matrix(1 0 0 1 66.202 541.94)" style="fill:#FFFFFF; font-family:'Gotham'; font-size:14px;">Additional Data Analytics, Insights</text>
+	</g>
+</g>
+</svg>

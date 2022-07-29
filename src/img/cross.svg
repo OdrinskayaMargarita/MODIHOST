@@ -1,0 +1,14 @@
+<svg id="X" xmlns="http://www.w3.org/2000/svg" width="13.87" height="14.6" viewBox="0 0 13.87 14.6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M1249.44,13252l6.76,6.8-6.76,6.8" transform="translate(-1248.22 -13251.5)"/>
+  <path class="cls-1" d="M1261.89,13252l-6.77,6.8,6.77,6.8" transform="translate(-1248.22 -13251.5)"/>
+</svg>

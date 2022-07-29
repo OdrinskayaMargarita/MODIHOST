@@ -1,0 +1,110 @@
+.media__wrapper {
+    position: relative;
+    padding: rem-calc(180 0 208);
+}
+
+.media__container {
+    @media (min-width: 1025px) {
+        position: absolute;
+        top: rem-calc(180);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.media__title {
+    margin-bottom: rem-calc(40);
+}
+
+.media__logos {
+    .swiper-navigation {
+        margin-top: 64px;
+        // @media (min-width: $lg) {
+            display: none;
+        // }
+    }
+}
+
+.media__item {
+    display: flex;
+    height: rem-calc(124);
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e9eb;
+    transition: background-color .2s ease-in-out;
+
+    img {
+        @media (max-width: $lg) {
+            transform: scale(.85);
+        }
+        @media (max-width: $md) {
+            transform: scale(.7);
+        }
+    }
+
+    &:hover {
+      background-color: darken(#e8e9eb, 7%);
+    }
+}
+
+[class*=media-bg__figure] {
+    position: absolute;
+}
+
+.media-bg__figure-1 {
+    top: calc(100% + #{rem-calc(200)});
+    left: percentage(135/1440);
+    width: 56px;
+    height: 48px;
+    @media (max-width: 1024px) {
+        top: auto;
+        bottom: -12px;
+        left: rem-calc(40);
+    }
+    @media (max-width: $lg) {
+        left: rem-calc(36);
+    }
+    @media (max-width: $sm) {
+        left: 23px;
+        bottom: -7px;
+        width: 32px;
+        height: 29px;
+    }
+}
+
+.media-bg__figure-2 {
+    bottom: calc(100% + #{rem-calc(152)});
+    left: percentage(158/1440);
+    width: 50px;
+    height: 44px;
+    @media (max-width: 1024px) {
+        bottom: auto;
+        top: -12px;
+        left: $paddings-horizontal-default;
+    }
+    @media (max-width: $lg) {
+        left: rem-calc(42);
+    }
+    @media (max-width: $sm) {
+        top: -8px;
+        left: 30px;
+        width: 29px;
+        height: 27px;
+    }
+}
+
+.media-bg__figure-3 {
+    top: rem-calc(80);
+    right: -12px;
+    width: 105px;
+    height: 91px;
+    @media (max-width: 1024px) {
+        top: rem-calc(130);
+    }
+    @media (max-width: $sm) {
+        top: 120px;
+        right: -8px;
+        width: 64px;
+        height: 55px;
+    }
+}

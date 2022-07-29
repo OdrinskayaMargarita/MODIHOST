@@ -1,0 +1,34 @@
+<div class="subscribe__wrapper">
+    <form id="subscribe-form" data-action="form-process.php" action="form-process.php" class="subscribe__container container container--type-3">
+        <input type="hidden" name="formType" value="subscribe">
+        <h2 class="subscribe__title title-section__title title-section__title--larger">Stay Updated</h2>
+        <p>Subscribe for the latest news & progress</p>
+        <div class="subscribe__form">
+            <input type="email" name="email" value="">
+            <button class="link link--larger link--purple" type="submit" name="submit">Send</button>
+        </div>
+        <div class="subscribe-form__error">
+            <span>There was an error when sending the form. Please try again later.</span>
+        </div>
+        <div class="subscribe-form__success">
+            <p class="title-section__title title-section__title--smaller">Thank you for signing up.</p>
+            <p class="title-section__uppertitle">We'll keep you updated.</p>
+        </div>
+    </form>
+    <div class="subscribe-bg__wrapper">
+        <div class="subscribe-bg__container container container--default">
+            <div class="subscribe-bg__figure-1">
+                <img class="subscribe__parallax" data-depth="0.1" src="img/bg-figure-5.svg" alt="">
+            </div>
+            {# <div class="subscribe-bg__figure-2">
+                <img class="subscribe__parallax" data-depth="0.1" src="img/bg-figure-6.svg" alt="">
+            </div> #}
+            <div class="subscribe-bg__figure-3">
+                <img class="subscribe__parallax" data-depth="0.1" src="img/bg-figure-7.svg" alt="">
+            </div>
+            {# <div class="subscribe-bg__figure-4">
+                <img class="subscribe__parallax" data-depth="0.1" src="img/bg-figure-8.svg" alt="">
+            </div> #}
+        </div>
+    </div>
+</div>

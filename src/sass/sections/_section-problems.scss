@@ -1,0 +1,255 @@
+.problems__wrapper {
+  position: relative;
+  padding: rem-calc(170 0);
+}
+
+[class*=problems-anim-bg] {
+  transition-property: transform;
+  transition-timing-function: ease-in-out;
+}
+
+.problems-anim-bg__wrapper {
+  position: absolute;
+  top: -18px;
+  bottom: -8px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+
+.problems-anim-bg__fill {
+  position: absolute;
+  top: 15px;
+  bottom: 8px;
+  left: 0;
+  right: 0;
+  background-color: $color-6;
+  transform: translateY(12px);
+  transition-duration: .4s;
+  @include target-ie11 {
+    transform: none;
+  }
+
+  &.is-moved {
+    transform: translateY(0);
+  }
+}
+
+[class*=problems-anim-bg__edge-] {
+  position: absolute;
+  z-index: 50;
+}
+
+.problems-anim-bg__edge-1,
+.problems-anim-bg__edge-2,
+.problems-anim-bg__edge-3,
+.problems-anim-bg__edge-4 {
+  width: percentage(236/1440);
+  @media (max-width: $md) {
+    width: percentage(140/375);
+  }
+}
+
+.problems-anim-bg__edge-1,
+.problems-anim-bg__edge-3,
+.problems-anim-bg__edge-4 {
+    top: 26px;
+    transition-duration: .8s;
+    @include target-ie11 {
+      transform: translateY(-26px);
+    }
+
+    &.is-moved {
+      transform: translateY(-26px);
+    }
+}
+
+.problems-anim-bg__edge-2 {
+  bottom: calc(100% - 26px);
+}
+
+.problems-anim-bg__edge-3,
+.problems-anim-bg__edge-4 {
+  @media (max-width: $md) {
+    display: none;
+  }
+}
+
+.problems-anim-bg__edge-5,
+.problems-anim-bg__edge-6,
+.problems-anim-bg__edge-7 {
+  bottom: 8px;
+  transition-duration: .4s;
+  @include target-ie11 {
+    transform: translateY(8px);
+  }
+
+  &.is-moved {
+    transform: translateY(8px);
+  }
+}
+
+.problems-anim-bg__edge-1 {
+  left: percentage(-144/1440);
+  @media (max-width: $md) {
+    left: percentage(20/375);
+  }
+}
+
+.problems-anim-bg__edge-2 {
+  left: percentage(177/1440);
+  @media (max-width: $md) {
+    left: auto;
+    right: percentage(-32/375);
+  }
+}
+
+.problems-anim-bg__edge-3 {
+  left: percentage(921/1440);
+}
+
+.problems-anim-bg__edge-4 {
+  right: percentage(-126/1440);
+}
+
+.problems-anim-bg__edge-5 {
+  left: percentage(33/1440);
+  width: percentage(317/1440);
+  @media (max-width: $md) {
+    left: percentage(-80/375);
+    width: percentage(188/375);
+  }
+}
+
+.problems-anim-bg__edge-6 {
+  left: percentage(723/1440);
+  width: percentage(120/1440);
+  @media (max-width: $md) {
+    left: percentage(160/375);
+    width: percentage(71/375);
+  }
+}
+
+.problems-anim-bg__edge-7 {
+  right: percentage(-88/1440);
+  width: percentage(236/1440);
+  @media (max-width: $md) {
+    right: percentage(-80/375);
+    width: percentage(140/375);
+  }
+}
+
+.problems__container {
+  position: relative;
+  z-index: 100;
+}
+
+.problems__title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: rem-calc(60);
+  @media (max-width: $lg) {
+    flex-direction: column;
+  }
+
+  .title-section__title {
+    width: calc(100% - 256px);
+    @media (max-width: $lg) {
+      width: 100%;
+    }
+  }
+}
+
+.problems__navigation {
+  @media (max-width: $lg) {
+    margin-left: auto;
+    margin-top: 32px;
+  }
+  .swiper-pagination {
+    margin-right: 32px;
+  }
+}
+
+.problems__carousel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: $lg) {
+    flex-direction: column;
+  }
+}
+
+.problems__images {
+  margin-left: 0;
+  width: percentage(485/976);
+  @media (max-width: $lg) {
+    width: 100%;
+    max-width: 485px;
+    margin-left: auto;
+  }
+}
+
+.problems__description {
+  margin-right: 0;
+  width: percentage(388/976);
+  @media (max-width: $lg) {
+    width: 100%;
+    max-width: 485px;
+    margin-right: auto;
+    margin-top: 48px;
+  }
+}
+
+.problems__item {
+  transform: translateX(-100px);
+  opacity: 0;
+  font-family: $font-1;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.15px;
+  font-weight: 400;
+  color: $color-4;
+  @include target-ie11 {
+    opacity: 1;
+    transform: none;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+
+  b {
+    font-weight: 600;
+  }
+}
+
+.problem__title, .problem__description {
+  display: block;
+}
+
+.problem__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-family: $font-2;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: rgba($color-4, .6);
+
+  .problem__item--solution & {
+    color: $color-3;
+  }
+}
+
+.problem__icon {
+  margin-right: 20px;
+  width: 32px;
+  height: 28px;
+}
+
+.problem__item--solution {
+  font-weight: 600;
+  color: $color-3;
+}

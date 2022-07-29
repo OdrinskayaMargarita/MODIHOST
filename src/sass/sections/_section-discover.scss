@@ -1,0 +1,38 @@
+.discover__wrapper {
+    padding: rem-calc(144 0 128);
+    background-color: $color-4;
+    color: $color-2;
+}
+
+.discover__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: $md) {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+.discover__illustration {
+    width: 50%;
+    @media (max-width: $md) {
+        margin-bottom: 52px;
+        width: 100%;
+    }
+}
+
+.discover__info {
+    width: percentage(4/10);
+    font-family: $font-1;
+    font-size: rem-calc(24);
+    line-height: (34/24);
+    letter-spacing: 0.01em;
+    @media (max-width: $md) {
+        width: 100%;
+    }
+
+    .link {
+        margin-top: rem-calc(36);
+    }
+}

@@ -1,0 +1,30 @@
+.message__wrapper {
+    margin: rem-calc(0 0 132);
+}
+
+.message__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 8px solid $color-3;
+    padding: rem-calc(40) percentage(88/760);
+    @media (max-width: $sm) {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.message__info {
+    width: percentage(4/6);
+    font-family: $font-1;
+    font-size: rem-calc(24);
+    line-height: (32/24);
+    letter-spacing: .03em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: $color-3;
+    @media (max-width: $sm) {
+        margin-bottom: 48px;
+        width: 100%;
+    }
+}

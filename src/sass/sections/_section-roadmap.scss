@@ -1,0 +1,227 @@
+.roadmap__wrapper {
+    margin: rem-calc(150 0 136);
+}
+
+.roadmap__top {
+  display: flex;
+  margin-bottom: 60px;
+  justify-content: space-between;
+  align-items: flex-end;
+  @media (max-width: $md) {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  @media (max-width: $sm) {
+    margin-bottom: 40px;
+  }
+}
+
+.roadmap__navigation {
+  @media (max-width: $md) {
+    margin-top: 20px;
+    align-self: flex-end;
+  }
+  .swiper-pagination {
+    margin-right: 24px;
+    @media (max-width: $sm) {
+      display: none;
+    }
+  }
+}
+
+.roadmap-select__container {
+  @media (max-height: 848px) {
+    max-width: $container-type-1-width;
+  }
+}
+
+.roadmap__container {
+  position: relative;
+  max-width: rem-calc(1270);
+  padding: 0;
+  @media (max-height: 848px) {
+    max-width: rem-calc(1060);
+  }
+
+  &::before, &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    width: 50px;
+    @media (max-height: 848px) {
+      width: 40px;
+    }
+    @media (max-width: $lg) {
+      width: 30px;
+    }
+    @media (max-width: $sm) {
+      width: 12px;
+    }
+  }
+  &::before {
+    left: 0;
+    background-image: linear-gradient(to right, $color-2, transparent);
+  }
+  &::after {
+    right: 0;
+    background-image: linear-gradient(to left, $color-2, transparent);
+  }
+}
+
+.roadmap__carousel {
+  font-weight: 400;
+
+  @include target-ie11 {
+    svg {
+      height: 600px;
+    }
+  }
+}
+
+.roadmap__placeholder {
+  margin: rem-calc(160 0 304);
+  font-family: $font-2;
+  text-align: center;
+  font-size: 43px;
+  letter-spacing: -0.5px;
+  font-weight: 300;
+  color: rgba($color-4, .4);
+}
+
+.roadmap__legend {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  @media (max-width: $sm) {
+    margin-top: 20px;
+  }
+}
+
+.roadmap__definition {
+  margin: 0 24px;
+  font-weight: 500;
+  color: $color-4;
+  @media (max-width: $sm) {
+    margin: 10px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.roadmap__definition-color {
+  display: inline-block;
+  margin-right: 20px;
+  width: 15px;
+  height: 15px;
+  @media (max-width: $sm) {
+    margin-right: 6px;
+  }
+}
+
+.roadmap__definition-color--purple {
+  background-color: $color-3;
+}
+
+.roadmap__definition-color--red {
+  background-color: $color-5;
+}
+
+.roadmap__definition-color--black {
+  background-color: $color-4;
+}
+
+.roadmap__definition-color--gray {
+  background-color: #97aecd;
+}
+
+.roadmap__link {
+  margin-top: 80px;
+  text-align: center;
+  @media (max-width: $sm) {
+    margin-top: 40px;
+  }
+}
+
+.roadmap__select-slide {
+  margin-bottom: 28px;
+}
+
+.select-slide__wrapper {
+  display: inline-block;
+  position: relative;
+  z-index: 50;
+  width: 168px;
+  font-family: $font-3;
+  color: $color-4;
+  @media (max-width: $sm) {
+    width: 128px;
+  }
+
+  b, strong {
+    font-weight: 700;
+  }
+}
+
+.select-slide__button {
+  position: relative;
+  padding: 8px 40px 8px 20px;
+  cursor: pointer;
+  @media (max-height: 848px) {
+    padding-left: 0;
+  }
+  @media (max-width: $lg) {
+    padding-left: 0;
+  }
+  @media (max-width: $sm) {
+    padding-right: 30px;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width: 13px;
+    height: 10px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEzLjYgOC42IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMy42IDguNjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwYXRoIHN0eWxlPSJmaWxsOm5vbmU7c3Ryb2tlOiMxODFlMzA7c3Ryb2tlLXdpZHRoOjEuNTsiIGQ9Ik0xMi44LDEuM2wtNiw2bC02LTYiLz48L3N2Zz4=);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  &.is-opened {
+    &::after {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.select-slide__dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 10px);
+  left: -8px;
+  min-width: calc(100% + 16px);
+  padding: 12px 0;
+  background-color: $color-6;
+
+  li {
+    padding: 12px 28px;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+    @media (max-width: $sm) {
+      padding: 6px 16px;
+    }
+
+    &:hover {
+      color: $color-3;
+    }
+  }
+}
